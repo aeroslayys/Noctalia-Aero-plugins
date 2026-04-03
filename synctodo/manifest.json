@@ -1,0 +1,26 @@
+{
+  "id": "synctodo",
+  "name": "SyncTodo",
+  "version": "1.0.0",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "you",
+  "license": "MIT",
+  "repository": "https://github.com/yourusername/noctalia-plugins",
+  "description": "Displays your SyncTodo tasks as a desktop widget and bar indicator. Reads from the local JSON cache written by the SyncTodo TUI.",
+  "tags": ["Desktop Widget", "Bar", "Productivity"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml",
+    "desktopWidget": "DesktopWidget.qml",
+    "desktopWidgetSettings": "DesktopWidgetSettings.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {
+      "maxItems": 5,
+      "showDone": false,
+      "cachePath": ""
+    }
+  }
+}
